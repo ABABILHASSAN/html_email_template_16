@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap');
+
+
+*{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        transition: all .2s linear;
+} 
+
+body{
+        background-color: #d8dbdb;
+        font-size: 14px;
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 2%;
+        color: #565859;
+}
+
+.btn{
+        background-color: #1E1E1E;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 10px 14px;
+        border-radius: 8px;
+        letter-spacing: 2px;
+}
+
+.btn:hover{
+        background-color: #fe6b58;
+        color: #fff;
+}
+
+img{
+        max-width: 100%;
+}
+
+.line{
+        clear: both;
+        height: 1px;
+        background-color: #fe6b58;
+        margin: 35px auto 10px;
+        width: 98%;
+}
+
+.wrapper{
+        background-color: #f6faff;
+        border-top: 10px solid #3db5a0;
+        box-shadow: 0 0 10px #666;
+        border-radius: 5px;
+}
+
+.logo{
+        width: 100%;
+        padding: 1% 0;
+        text-align: center;
+        background-color: #1E1E1E;
+}
+
+.logo img{
+        max-width: 250px;
+}
+
+.wrapper .banner{
+        max-width: 100%;
+        background-color: #3db5a0;
+        padding: 30px;
+        color: #fff;
+}
+
+.wrapper .banner h1{
+        font-size: 30px;
+        font-weight: bold;
+} 
+
+.wrapper .banner p{
+        font-size: 15px;
+        letter-spacing: 1%;
+        padding-bottom: 25px;
+}
+
+.wrapper .title h2{
+        color: #fe6b58;
+        padding: 30px;
+        text-align: center;
+        font-size: 25px;
+}
+
+
+.wrapper .box-container{
+        padding: 0 30px 30px 30px;
+}
+
+.wrapper .box-container .box{
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+}
+
+.wrapper .box-container .box .image{
+       max-width: 100px;
+       background-color: #565859;
+       padding: 20px;
+       border-radius: 20%;
+        
+}
+
+.wrapper .two-col{
+        display: flex;
+        align-items: center;
+}
+
+.wrapper .two-col .box1 img{
+        max-width: 250px;
+}
+
+.wrapper .two-col .box1 h2{
+        color: #fe6b58;
+        font-size: 25px;
+}
+
+.wrapper .two-col .box1 p{
+        padding-bottom: 25px;
+}
+
+
+.social{
+       width: 96%;
+       text-align: center;
+       list-style-type: none;
+       padding:  2%;
+       margin: 20px 0 5px;
+}
+
+.social li{
+        display: inline;
+}
+
+.social img{
+        max-width: 40px;
+}
+
+
+.contact {
+        text-align: center;
+        padding-bottom: 3%;
+}
+
+
+
+
+/* media queries starts */
+
+@media (max-width: 600px){
+
+}
+
+
+/* media queries ends */
